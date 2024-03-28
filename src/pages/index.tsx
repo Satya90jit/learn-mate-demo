@@ -1,10 +1,12 @@
+import Navbar from "@/components/common/Navbar";
 import HeroSection from "@/components/home/HeroSection";
 
 const Home = () => {
   return (
-    <section className="">
+    <>
+      <Navbar />
       <HeroSection />
-    </section>
+    </>
   );
 };
 

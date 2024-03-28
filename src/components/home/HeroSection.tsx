@@ -4,7 +4,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <section className="flex justify-between items-center gap-10 h-[50rem] mx-24">
-      <aside className="w-[40%] space-y-7 bg-red-500">
+      <aside className="w-[40%] space-y-7">
         <h1 className="text-2xl text-green-700 font-semibold">
           Start your favourite course
         </h1>
@@ -20,7 +20,7 @@ const HeroSection = () => {
           electronic typesetting.
         </p>
       </aside>
-      <aside className="w-[60%] relative bg-blue-300 flex justify-end">
+      <aside className="w-[60%] relative flex justify-end">
         <div className="absolute top-14 left-14">
           <div className="bg-green-700 rounded-full h-[10rem] w-[10rem] p-4 flex flex-col justify-center items-center space-y-1">
             <MenuBook className="text-white" />
