@@ -6,10 +6,12 @@ import HeroSection from "@/components/home/HeroSection";
 const Home = () => {
   return (
     <>
-      <Navbar />
-      <HeroSection />
-      <CardSection />
-      <Footer />
+      <section className="bg-white">
+        <Navbar />
+        <HeroSection />
+        <CardSection />
+        <Footer />
+      </section>
     </>
   );
 };
