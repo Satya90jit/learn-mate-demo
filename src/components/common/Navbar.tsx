@@ -1,25 +1,22 @@
-import MenuIcon from "@mui/icons-material/Menu";
-import Link from "next/link";
+import { Search } from "@mui/icons-material";
 import React from "react";
 
 const Navbar = () => {
   return (
-    <section className="flex justify-around items-center bg-white shadow-lg h-14 w-full">
-      <img src="/vercel.svg" className="h-8" />
-      <div className="hidden lg:flex justify-around gap-8 text-lg text-gray-700 font-semibold">
-        <Link href={"/"}>Home</Link>
-        <Link href={"/about"}>About</Link>
-        <p>Contact</p>
+    <section className="flex fixed top-0 z-50 justify-around items-center h-14 bg-white w-full shadow-lg">
+      <img src="/vercel.svg" className="h-10" />
+      <div className="flex justify-center gap-7 items-center">
+        <p>Home</p>
         <p>Pages</p>
+        <p>Blog</p>
         <p>FAQ</p>
+        <p>Contact</p>
       </div>
-      <span className="lg:hidden">
-        <MenuIcon />
-      </span>
-      <div className="hidden lg:block">
+      <div className="p-2 rounded-lg bg-slate-100 text-gray-800 hover:border border-green-400">
+        <Search />
         <input
-          className="rounded-lg bg-white text-gray-800 border p-2"
-          placeholder="Enter here to search"
+          placeholder="Enter for search..."
+          className="bg-slate-100 outline-none"
         />
       </div>
     </section>
