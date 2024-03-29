@@ -4,7 +4,7 @@ import AnimateButton from "../core/AnimateButton";
 
 const HeroSection = () => {
   return (
-    <section className="flex lg:flex-row flex-col justify-between items-center lg:gap-10 gap-3 h-[50rem] lg:mx-24 my-14">
+    <section className="flex lg:flex-row flex-col justify-between items-center lg:gap-10 gap-3 h-[50rem] lg:mx-32 my-14">
       <aside className="lg:w-[40%] w-full space-y-7 p-6">
         <h1 className="text-2xl text-green-700 font-semibold">
           Start your favourite course
