@@ -1,15 +1,14 @@
-import Footer from "@/components/common/Footer";
-import Navbar from "@/components/common/Navbar";
+import Navbar from "@/layouts/public/Navbar";
 import HeroSection from "@/components/home/HeroSection";
+import { PublicLayouts } from "@/layouts";
 
 const Home = () => {
   return (
     <>
       <section className="bg-white">
-        <Navbar />
-        <HeroSection />
-        {/* <CardSection /> */}
-        <Footer />
+        <PublicLayouts>
+          <HeroSection />
+        </PublicLayouts>
       </section>
     </>
   );
