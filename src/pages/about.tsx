@@ -4,10 +4,9 @@ import React from "react";
 
 const about = () => {
   return (
-    <PublicLayouts>
+    <PublicLayouts commonHeroTitle="About">
       <section className="flex justify-center items-center h-screen">
-      <CommonHero name="About" />
-       
+        <div>ABOUT PAGE</div>
       </section>
     </PublicLayouts>
   );

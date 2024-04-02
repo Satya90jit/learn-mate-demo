@@ -7,9 +7,8 @@ const Home = () => {
   return (
     <>
       <section className="bg-[rgb(231,248,238)]">
-        <PublicLayouts>
+        <PublicLayouts commonHeroClass="hidden">
           <HeroSection />
-          
         </PublicLayouts>
       </section>
     </>

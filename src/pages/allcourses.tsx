@@ -1,15 +1,15 @@
-import CommonHero from '@/components/common/CommonHero'
-import { PublicLayouts } from '@/layouts'
-import React from 'react'
+import CommonHero from "@/components/common/CommonHero";
+import { PublicLayouts } from "@/layouts";
+import React from "react";
 
 const allcourses = () => {
   return (
     <PublicLayouts>
-      <section className="flex justify-center items-center h-screen">
-      <CommonHero name="All Courses" />
+      <section className="h-screen flex justify-center items-center">
+        <div>ALL COURSES</div>
       </section>
     </PublicLayouts>
-  )
-}
+  );
+};
 
-export default allcourses
+export default allcourses;
