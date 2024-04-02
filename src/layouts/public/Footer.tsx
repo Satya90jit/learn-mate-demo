@@ -23,12 +23,12 @@ const Footer = () => {
       <aside className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 w-full text-gray-800 mx-28">
         <div>
           <img
-            className="mb-10"
-            src="https://htmldemo.net/edule/eduLe/assets/images/logo.png"
+            className=" w-32 mb-2"
+            src="mate_logo.png"
             alt=""
           />
           <div className="space-y-4">
-            <p className="">Caribbean Ct</p>
+            <p className="">Caribbean Cuttackmd</p>
             <p className=" text-green-500">Haymarket, Virginia (VA).</p>
             <div className="flex gap-2 text-green-500">
               <Email />
@@ -87,7 +87,7 @@ const Footer = () => {
               book.
             </p>
             <input
-              className="p-3 rounded-lg font-bold text-black text-SM border-hidden  "
+              className="p-3 rounded-lg font-bold text-black text-SM border-hidden outline-none "
               type="text"
               placeholder="Email here"
             />
