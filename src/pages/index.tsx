@@ -6,7 +6,7 @@ import Footer from "@/layouts/public/Footer";
 const Home = () => {
   return (
     <>
-      <section className="bg-white">
+      <section className="bg-[rgb(231,248,238)]">
         <PublicLayouts>
           <HeroSection />
           

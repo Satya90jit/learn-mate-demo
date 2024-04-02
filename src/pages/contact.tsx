@@ -1,3 +1,4 @@
+import CommonHero from "@/components/common/CommonHero";
 import { PublicLayouts } from "@/layouts";
 import Navbar from "@/layouts/public/Navbar";
 import Head from "next/head";
@@ -7,7 +8,7 @@ const ContactPage = () => {
   return (
     <PublicLayouts>
       <section className="flex justify-center items-center h-screen">
-        <div className="text-6xl font-semibold">CONTACT PAGE</div>
+      <CommonHero name="Contact" />
       </section>
     </PublicLayouts>
   );
