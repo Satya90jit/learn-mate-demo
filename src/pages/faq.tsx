@@ -7,10 +7,9 @@ const FaqPage = () => {
     <PublicLayouts
       title="FAQ PAGE || LEARN_MATE"
       description="This is our faq page"
+      commonHeroTitle="FAQS"
     >
-      <section className="flex justify-center items-center h-screen">
-      <CommonHero name="FAQ" />
-      </section>
+      <section className="flex justify-center items-center h-screen"></section>
     </PublicLayouts>
   );
 };

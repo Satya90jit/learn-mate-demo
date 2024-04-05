@@ -5,9 +5,7 @@ import React from "react";
 const BlogPage = () => {
   return (
     <PublicLayouts>
-      <section className="flex justify-center items-center h-screen">
-      <CommonHero name="Blog" />
-      </section>
+      <section className="flex justify-center items-center h-screen"></section>
     </PublicLayouts>
   );
 };

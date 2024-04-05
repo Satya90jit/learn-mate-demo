@@ -16,7 +16,7 @@ const CommonHero = ({ name }: { name: string }) => {
             Home// <span className="text-green-700 font-semibold"> {name}</span>
           </div>
           <h1 className="text-4xl font-semibold">
-            <span className="text-green-700">{name}</span> Learn Mate
+            <span className="text-green-700">{name}</span>
           </h1>
         </div>
 

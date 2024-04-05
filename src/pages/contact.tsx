@@ -6,10 +6,8 @@ import React from "react";
 
 const ContactPage = () => {
   return (
-    <PublicLayouts>
-      <section className="flex justify-center items-center h-screen">
-      <CommonHero name="Contact" />
-      </section>
+    <PublicLayouts commonHeroTitle="Contact">
+      <section className="flex justify-center items-center h-screen"></section>
     </PublicLayouts>
   );
 };
