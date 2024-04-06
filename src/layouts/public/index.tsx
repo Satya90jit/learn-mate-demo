@@ -2,6 +2,7 @@ import CommonHero from "@/components/common/CommonHero";
 import Head from "next/head";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+import { UpperNav } from "./UpperNav";
 
 type Props = {
   children: React.ReactNode;

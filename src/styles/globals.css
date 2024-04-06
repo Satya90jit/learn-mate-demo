@@ -31,3 +31,16 @@ body {
     text-wrap: balance;
   }
 }
+
+/* .active {
+  opacity: 1;
+} */
+
+.navbar {
+  top: -100px;
+  transition: top 0.7s ease;
+}
+
+.navbar.active {
+  top: 0;
+}

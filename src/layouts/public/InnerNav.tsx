@@ -4,7 +4,7 @@ import React from "react";
 
 const InnerNav = () => {
   return (
-    <section className="flex absolute top-20 justify-around items-center h-20 border border-green-600 w-[70%] rounded-lg">
+    <section className="absolute top-20 justify-around items-center h-20 border border-green-600 w-[70%] rounded-lg">
       <img src="/mate_logo.png" className="h-10" />
       <div className="md:flex justify-center gap-7 items-center text-black hidden ">
         <Link href={"/"}>Home</Link>

@@ -17,16 +17,12 @@ const Footer = () => {
   return (
     <section className="relative flex justify-center items-center bg-[rgb(231,248,238)] p-10 w-full">
       <img
-        className="absolute top-1/2 left-4"
+        className="absolute top-1/2 left-4 hidden lg:block"
         src="https://htmldemo.net/edule/eduLe/assets/images/shape/shape-21.png"
       />
-      <aside className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 w-full text-gray-800 mx-28">
+      <aside className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 w-full text-gray-800 lg:mx-28">
         <div>
-          <img
-            className=" w-32 mb-2"
-            src="mate_logo.png"
-            alt=""
-          />
+          <img className="w-32 mb-2" src="mate_logo.png" alt="" />
           <div className="space-y-4">
             <p className="">Caribbean Cuttackmd</p>
             <p className=" text-green-500">Haymarket, Virginia (VA).</p>
@@ -87,7 +83,7 @@ const Footer = () => {
               book.
             </p>
             <input
-              className="p-3 rounded-lg font-bold text-black text-SM border-hidden outline-none "
+              className="p-3 rounded-lg font-bold text-black text-sm border-hidden outline-none "
               type="text"
               placeholder="Email here"
             />
