@@ -9,7 +9,7 @@ import {
 
 export const UpperNav = () => {
   return (
-    <div className="bg-[#212832] w-full h-12 text-white hidden lg:flex">
+    <div className="bg-[#212832] w-full h-12 text-white justify-around flex">
       <div className="h-12 flex justify-between items-center relative main-container">
         <div className="">
           <p>

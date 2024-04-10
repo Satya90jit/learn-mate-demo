@@ -1,15 +1,17 @@
 import Navbar from "@/layouts/public/Navbar";
-import HeroSection from "@/components/home/HeroSection";
 import { PublicLayouts } from "@/layouts";
 import Footer from "@/layouts/public/Footer";
+import { CourseSection, HeroSection, HowItWork } from "@/components/home";
 
 const Home = () => {
   return (
     <>
-      <section className="bg-[rgb(231,248,238)]">
+      <section className="bg-white">
         {/* when we give the blank it false, */}
         <PublicLayouts commonHeroClass="hidden">
           <HeroSection />
+          <CourseSection />
+          <HowItWork />
         </PublicLayouts>
       </section>
     </>
