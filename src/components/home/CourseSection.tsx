@@ -6,6 +6,7 @@ import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
 import KeyboardArrowRightIcon from "@mui/icons-material/KeyboardArrowRight";
 import Slider from "react-slick";
 const CourseSection = () => {
+  //custom arrow button
   const CustomArrow = ({ onClick, icon: Icon, position }: any) => (
     <button
       onClick={onClick}
@@ -16,7 +17,7 @@ const CourseSection = () => {
       <Icon />
     </button>
   );
-
+  // array of course category
   const Category = [
     "UI/UX Design",
     "Development",
@@ -26,6 +27,7 @@ const CourseSection = () => {
     "Science",
   ];
 
+  //slider component
   const CourseSlider = () => {
     return (
       <Slider {...settings}>
@@ -45,6 +47,7 @@ const CourseSection = () => {
     );
   };
 
+  //setting for the slider
   const settings = {
     dots: true,
     infinite: true,
@@ -83,6 +86,7 @@ const CourseSection = () => {
         All <span className="text-green-600">Courses</span> of Learn Mate
       </h1>
       <aside className="flex justify-center items-center my-10 w-full">
+        {/* //don't use grid or flex in the parent div of the slider */}
         <div className="bg-green-100/80 p-8 rounded-lg w-full mx-10 px-36 text-center">
           <CourseSlider />
         </div>
@@ -101,3 +105,16 @@ const CourseSection = () => {
 };
 
 export default CourseSection;
+//https://www.npmjs.com/package/react-slick
+//https://stackblitz.com/edit/vitejs-vite-ownrun?file=src%2FImageSlider.jsx
+
+//react slick and carousel install package
+
+// yarn add react-slick
+//yarn add slick-carousel
+
+// in which filed want to add slider just add these
+
+// Import css files
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
